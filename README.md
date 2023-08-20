@@ -110,7 +110,8 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1_to_N.o sum_1_to_N.c
 spike pk 1_to_N.o
 ```
 
-![compile_using_riscv](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/adee1aab-d1da-44e3-8bad-babf43f869af)
+![compile_using_riscv](![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/fc98c82e-4be7-42b2-8e0f-1edfa4c5c60f)
+)
 
 - ```-O<number>``` : level of optimisation required
 - ```-mabi``` : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
