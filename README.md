@@ -102,8 +102,8 @@ gcc sum_1_to_N.c -o 1_to_N.o
 ```
 -o allows you to name your output file
 
-![compile_using_c_compiler](![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/1627d2a9-0339-43e7-a587-38f403db2172)
-)
+![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/05cce47a-f467-4a17-bb99-f0da573d59a6)
+
 
 _____compile using riscv compiler and view the output_____
 ```
@@ -111,9 +111,7 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1_to_N.o sum_1_to_N.c
 spike pk 1_to_N.o
 ```
 
-![compile_using_riscv](![PIC2](https://github.com/vaishbv/pes_asic_class/assets/79531808/920eae7a-fb5f-424c-a470-2226ee1d9fea)
-)
-)
+![compile_using_riscv](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/adee1aab-d1da-44e3-8bad-babf43f869af)
 
 - ```-O<number>``` : level of optimisation required
 - ```-mabi``` : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
@@ -261,8 +259,4 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 <summary>DAY 3 </summary>
 <br>
 </details>
-
-
-
-
 
