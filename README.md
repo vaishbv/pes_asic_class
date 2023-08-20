@@ -141,7 +141,7 @@ spike -d pk sum1ton.o
 - q : quit the debug process
 
 ##### Difference between the ALP commands when used different optimizers
-- use the command ```riscv64-unknown-elf-objdump -d 1_to_N.o | less```
+- use the command ```riscv64-unknown-elf-objdump -d sum1ton.o | less```
 - use ``` /instance``` to search for an instance 
 - press ENTER
 - press ```n``` to search next occurance
