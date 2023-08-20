@@ -248,10 +248,12 @@ To store 64 bits of data from mem to reg, we use 8*8bit stores ie., m[0],m[1]...
 ## Simulate a C program using ABI function call (using registers) and execute 
 
 The required program files are under day 2 folder
+![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/77b5ab0b-142f-4284-ade5-541cf4c45502)
 
-<img width="1150" height="150" src="https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/45c24570-4f59-4ddc-8a15-741bdd2d18c2">
 
-![alp_onetonextern](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/c6e76147-0b45-4699-8f09-ea20e0364a47)
+
+![PIC 2](https://github.com/vaishbv/pes_asic_class/assets/79531808/9fb9417f-9583-4662-95aa-4787488dc446)
+
 
 Here we can observe that at 5th line, inorder to comute the result ,its going to the "load"  function
 
