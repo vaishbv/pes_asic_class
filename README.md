@@ -262,11 +262,6 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 [Back to COURSE](https://github.com/yagnavivek/PES_ASIC_CLASS/tree/main#course)
 </details>
 
-<details>
-<summary>DAY 3 </summary>
-<br>
-</details>
-
 # Day-3
 ## Introduction to Open-Source Simulator iVerilog
 <details>
