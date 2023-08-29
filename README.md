@@ -262,8 +262,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 [Back to COURSE](https://github.com/yagnavivek/PES_ASIC_CLASS/tree/main#course)
 </details>
 
-# Day-3
-## Introduction to Open-Source Simulator iVerilog
+<details>
+<summary> DAY 3: Introduction to Open-Source Simulator iVerilog</summary>
+<br>
+
 <details>
 <summary> Introduction to iVerilog Design Testbench </summary>
 
@@ -456,7 +458,7 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
       ` synth -top good_mux`
 
-  <img width="334" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/e3a84ed6-0a26-4c47-a638-11f0431175ff">
+  <img width="334" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/f75014c5-c9f0-4813-ae56-ddbb71f79111">
   <img width="287" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/4ab7cd35-c5d7-4ca9-a310-8d76056a67e1">
   ![recent onee](https://github.com/vaishbv/pes_asic_class/assets/79531808/e3a84ed6-0a26-4c47-a638-11f0431175ff)
 
@@ -492,12 +494,13 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/74fc2a01-3c35-4db1-8220-96595c6c236e">
 
 <img width="479" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/7adc16f5-f635-4532-b90c-a9f9c496f95f">
-
-
 </details>
+</details>
+<details>
+<summary> DAY 4:  Introduction to Timing Dot Lib</summary>
+<br>
 
-# Day 4
-## Introduction to Timing Dot Libs
+
 <details>
 <summary> Introduction to Dot Lib </summary>	
 
@@ -549,7 +552,7 @@ It gives a report of what cells are used and the number of input and output sign
 +  read the verilog file ` read_verilog multiple_modules.v`
 +  `synth -top multiple_modules` to set it as top module
 
-  <img width="380" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/a69395c3-1e50-49cc-b356-6afe8b1f9c5e">
+  <img width="380" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/cb069321-9d4a-435b-96fb-f2ce268bc5ec">
   <img width="219" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/7163c184-566d-4568-abff-fcda8f6c9f63">
   
 +  `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
@@ -649,7 +652,7 @@ It gives a report of what cells are used and the number of input and output sign
   - `./a.out`
   - `gtkwave tb_dff_asyncres.vcd`
   
-<img width="549" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c114ede9-357a-4d75-9f4a-dea6fd71f1ce">
+<img width="549" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/cbb36aa1-b0fe-4cac-a07d-54f1e3ebba43">
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/326bf88d-74d9-407f-8c45-1e1e28ea1911">
 
@@ -672,7 +675,7 @@ It gives a report of what cells are used and the number of input and output sign
    - `./a.out`
    - `gtkwave tb_dff_async_set.vcd`
 
-<img width="551" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3d0eebd4-1d03-4bdb-9f76-4907b8b87ac3">
+<img width="551" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/cab40d08-55bc-437e-967c-d95d80040f00">
 
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/51dd2cf5-ea6c-4b00-bf2a-5ae8674e2272">
@@ -697,7 +700,7 @@ It gives a report of what cells are used and the number of input and output sign
    - `gtkwave tb_dff_syncres.vcd`
  
      
-   <img width="542" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/bd4493f9-da25-45ce-b9a6-660944032e75">
+   <img width="542" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/01b1d57f-5ed6-4d70-90cd-7c7becbe8da6">
    
 
   <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/472e9a2d-bb95-437d-b790-cfe72294ad07">
@@ -761,10 +764,10 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/37c89aea-497d-4e0d-99c5-c46dffd63b7d">
 
 </details>
-
-# Day 5
-## Introduction to Optimisations 
-
+</details>
+<details>
+<summary> DAY 5:  Introduction to Optimisations </summary>
+<br>
 <details>
 <summary> Combinational Optimisation </summary>
 	
@@ -907,7 +910,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `/a.out`
 + `gtkwave tb_dff_const1.vcd`
 
-<img width="572" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/551d623c-c25c-4c42-882f-7455f451e752">
+<img width="572" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/f2fffa07-2bea-4e93-b862-ca156f2cda79">
 
 <img width="503" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/51301173-fdbd-476c-842e-2d08078f020d">
 
@@ -939,7 +942,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `/a.out`
 + `gtkwave tb_dff_const2.vcd`
 
-<img width="535" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/d50ca5c4-3cf0-45ce-a987-07c10a9bc737">
+<img width="535" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/70c2d3c4-2b6d-4c0e-bba9-870fa2eeebb2">
 
  <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/a90d628f-dd7d-4ae6-8b4d-072b6a9960b9">
 
@@ -971,7 +974,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `/a.out`
 + `gtkwave tb_dff_const3.vcd`
 
-<img width="519" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9f8b58c1-3f03-4bad-a238-062c751f5401">
+<img width="519" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/196029b9-4bb6-494d-b164-ecefdd1cbf8d">
 
 <img width="502" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/aed6c933-5c06-4687-ba9e-9c782626c030">
 
@@ -1003,7 +1006,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `/a.out`
 + `gtkwave tb_dff_const4.vcd`
 
-<img width="530" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c51fb049-bb70-477a-8aa4-9951d1ea684c">
+<img width="530" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/35b28c70-04dc-4dd3-86b4-a1feb38461c8">
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/1a9ee230-2ad6-4c92-8e37-0a753832180f">
 
@@ -1031,11 +1034,11 @@ It gives a report of what cells are used and the number of input and output sign
 
 **Simulation**
 
-+ `iverilog dff_const4.v tb_dff_const4.v`
++ `iverilog dff_const5.v tb_dff_const5.v`
 + `/a.out`
-+ `gtkwave tb_dff_const4.vcd`
++ `gtkwave tb_dff_const5.vcd`
 
-<img width="529" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/e27a9ee5-6332-4147-8bf9-c246ca7d7996">
+<img width="529" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/92483ee3-616b-4b5c-8d35-3a9e87417cae">
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/7eb3b371-189e-483c-80d9-37d38c062cd2">
 
@@ -1094,9 +1097,11 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="923" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/78af2250-6ee8-4d94-b91b-138cb2877b1e">
 
 </details>
+</details>
+<details>
+<summary> DAY 6:  GLS Synthesis-Simulation Mismatch and Blocking Non-blocking Statements </summary>
+<br>
 
-# Day 6
-## GLS Synthesis-Simulation Mismatch and Blocking Non-blocking Statements
 
 <details>
 <summary> GLS Concepts And Flow Using Iverilog </summary>	
@@ -1176,7 +1181,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_ternary_operator_mux.vcd`
 
-<img width="626" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/893dc1c8-bc64-41bf-bb35-ee83e37b023d">
+<img width="626" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/e807c47a-d9e4-4d78-bfc7-ff993517ba75">
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c675c505-880e-4c15-b079-3c528032c279">
 
@@ -1198,7 +1203,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="928" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/97f59e19-d561-4c1e-b8b5-46fb1eb21595">
+<img width="928" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/30c8a1f0-5283-4842-bb45-dd4cbd665620">
 
 <img width="498" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/5c4652e6-8364-4e81-9cd3-f1795f5d321a">
 
@@ -1217,7 +1222,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9c68b293-6f55-4742-bb06-5cdf9551a5ae">
+<img width="501" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/24f0cec2-2505-44ff-96fc-3ea695193cbc">
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/46266c26-99ce-4a79-9e5c-9558ea15f407">
 
@@ -1239,7 +1244,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="878" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/29d0b4bd-2874-4809-bf2b-728a73cccc09">
+<img width="878" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/78af27fc-cd82-4b68-bdf2-6ce81cc8836d">
   
 <img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9d51d787-22d3-4495-95cc-c87c0ef71d17">
 
@@ -1260,7 +1265,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_blocking_caveat.vcd`
 
-<img width="567" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/09e0265c-b794-4d3f-9e27-4403a6b9122a">
+<img width="567" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/e9fe7bf5-829b-4e63-ab6f-79d8247ae26c">
 
 <img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c3b18d2e-d407-45c4-9e97-ec59042ec2bd">
 
@@ -1282,9 +1287,9 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_blocking_caveat.vcd`
 
-<img width="926" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c541ebb5-b42d-4629-b12a-734541df3071">
+<img width="926" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/a9af34d0-7634-4d86-bbbf-b4e910996db8">
 
 <img width="503" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c78704db-de4c-4958-880f-0747f78090d9">
-
+</details>
 </details>
 
