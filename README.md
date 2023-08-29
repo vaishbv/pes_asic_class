@@ -266,6 +266,7 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 <summary>DAY 3 </summary>
 <br>
 </details>
+
 # Day-3
 ## Introduction to Open-Source Simulator iVerilog
 <details>
