@@ -333,7 +333,9 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
 + ` gtkwave tb_good_mux.vcd `
 
-<img width="767" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/14bdf7a7-7a4b-4a1f-9875-96575f59239e">
+![PIC2](https://github.com/vaishbv/pes_asic_class/assets/79531808/ff62c2e9-67e5-4160-aeaf-a4307c7a9cf7)
+
+![RECENT ONE](https://github.com/vaishbv/pes_asic_class/assets/79531808/0b58f1b1-9673-4555-a856-36f586b95070)
 
 
 <img width="497" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/e7627aaf-6048-445a-aaae-1117212d9670">
@@ -439,7 +441,8 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
   - `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
   - Type `yosys`
 
-  <img width="396" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9e007d9e-c66d-4f8d-a4db-0dadd4bada38">
+  ![PIC 3](https://github.com/vaishbv/pes_asic_class/assets/79531808/82235e03-42b0-41e2-9506-621291ea3d10)
+
 
 + To read the library
     
@@ -453,8 +456,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
       ` synth -top good_mux`
 
-  <img width="334" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/f75014c5-c9f0-4813-ae56-ddbb71f79111">
+  <img width="334" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/e3a84ed6-0a26-4c47-a638-11f0431175ff">
   <img width="287" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/4ab7cd35-c5d7-4ca9-a310-8d76056a67e1">
+  ![recent onee](https://github.com/vaishbv/pes_asic_class/assets/79531808/e3a84ed6-0a26-4c47-a638-11f0431175ff)
+
 
 + To generate the netlist
 
