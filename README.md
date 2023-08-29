@@ -266,8 +266,8 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 <summary> DAY 3: Introduction to Open-Source Simulator iVerilog</summary>
 <br>
 
-<details>
-<summary> Introduction to iVerilog Design Testbench </summary>
+
+ #### Introduction to iVerilog Design Testbench 
 
  - **Simulator**
    - It is a tool used for simulating the design. It looks for the changes on the input signals to evaluate the outputs.
@@ -292,12 +292,12 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
     <img width="526" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/72e6ffe4-abba-41f1-b79f-240f125b410b">
 
-</details>
+
 
 ## Labs using iVerilog and GTKwave
 
-<details>
-<summary> Introduction to Lab </summary>
+
+ #### Introduction to Lab 
 
 + Make a directory named vsd `mkdir vsd`.
 + `cd vsd`.
@@ -315,10 +315,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
   - verilog_files : contains all the verilog source files and testbench files which are required for labs
 
-</details>
 
-<details>
-<summary> iVerilog GTKwave Part-1 </summary>	
+
+
+ #### iVerilog GTKwave Part-1 
 
 
 + `cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files`
@@ -342,10 +342,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
 <img width="497" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/e7627aaf-6048-445a-aaae-1117212d9670">
 
-</details>
 
-<details>
-<summary> iVerilog GTKwave Part-2 </summary>
+
+
+#### iVerilog GTKwave Part-2 
 
 + In order to view the contents in the files,
 
@@ -353,12 +353,12 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 
 <img width="367" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/ef3c8e61-2e45-4087-9584-f84fd3584cd3">
 
-</details>
+
 
 ## Introduction to Yosys and Logic Synthesis
 
-<details>
-<summary> Introduction to Yosys </summary>
+
+####  Introduction to Yosys
 
 + **Synthesizer**
   - It is a tool used for converting RTL design code to netlist.
@@ -387,10 +387,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
    - The output on the simulator must be same as the output observed during RTL simulation.
    - Same RTL testbench can be used as the primary inputs and primary outputs remain same between the RTL design and synthesised netlist.
 
-</details>
 
-<details>
-<summary> Introduction to Logic Synthesis </summary>
+
+
+ #### Introduction to Logic Synthesis
 
 + **Logic Synthesis**
   - Logic synthesis is a process in digital design that transforms a high-level hardware description of a digital circuit, typically in a hardware description language (HDL) like Verilog or VHDL, into a lower-level representation composed of logic gates and flip-flops.
@@ -432,11 +432,10 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
   - More use of slower cells leads to sluggish circuits amd may not meet the performance needs.
   - Hence the guidance is offered to the synthesiser in the form of **constraints**.
  
-</details>
 
 ## Labs using Yosys and Sky130 PDKs
-<details>
-<summary> Yosys good_mux  </summary>	
+
+#### Yosys good_mux  
 
 + To invoke **yosys**
   - `cd`
@@ -494,16 +493,16 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/74fc2a01-3c35-4db1-8220-96595c6c236e">
 
 <img width="479" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/7adc16f5-f635-4532-b90c-a9f9c496f95f">
-</details>
+
 </details>
 <details>
 <summary> DAY 4:  Introduction to Timing Dot Lib</summary>
 <br>
 
 
-<details>
-<summary> Introduction to Dot Lib </summary>	
 
+ #### Introduction to Dot Lib 
+ 
 + To view the contents in the .lib
 
   `gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
@@ -529,11 +528,11 @@ It gives a report of what cells are used and the number of input and output sign
   
 <img width="911" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/2a6b20a3-33d1-47e0-814f-6cff100ec2a7">
 
-</details>
+
 
 ## Hierarchical vs Flat Synthesis
-<details>
-<summary> Hierarchical Synthesis Flat Synthesis </summary>	
+
+#### Hierarchical Synthesis Flat Synthesis 	
 
 **Hierarchical Synthesis**
   Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
@@ -588,11 +587,11 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="300" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/e3a80209-7339-4cef-833c-2c3bb1fc4dec">
 
 
-</details>
+
 
 ## Various Flop Coding Styles and Optimization
-<details>
-<summary> Why Flops and Flop Coding Styles</summary>	
+
+ #### Why Flops and Flop Coding Styles	
 
 **Why do we need a Flop?**
 
@@ -640,10 +639,10 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="439" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/8ee2f2a5-31e9-447c-a23f-b347fc7b642c">
 
-</details>
 
-<details>
-<summary> Lab Flop Synthesis Simulations </summary>	
+
+
+ #### Lab Flop Synthesis Simulations 	
 
 **D Flip-Flop with Asynchronous Reset**
 + **Simulation**
@@ -718,10 +717,10 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="925" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/ff5b11e7-11a8-40c9-9e08-e090eeb0f547">
 
-</details>
 
-<details>
-<summary> Interesting Optimisations </summary>	
+
+
+ #### Interesting Optimisations 
 
 + `gvim mult_2.v`
 
@@ -763,13 +762,13 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/37c89aea-497d-4e0d-99c5-c46dffd63b7d">
 
-</details>
+
 </details>
 <details>
 <summary> DAY 5:  Introduction to Optimisations </summary>
 <br>
-<details>
-<summary> Combinational Optimisation </summary>
+
+ #### Combinational Optimisation 
 	
 + Combinational logic refers to logic circuits where the outputs depend only on the current inputs and not on any previous states.
 + Combinational optimization is a field of study in computer science and operations research that focuses on finding the best possible solution from a finite set of options for problems that involve discrete variables and have no inherent notion of time.
@@ -778,10 +777,10 @@ It gives a report of what cells are used and the number of input and output sign
   - **Constant propagation** is an optimization technique used in compiler design and digital circuit synthesis to improve the efficiency of code and circuit implementations by replacing variables or expressions with their constant values where applicable.
   - **Boolean logic optimization**, also known as logic minimization or Boolean function simplification, is a process in digital design that aims to simplify Boolean expressions or logic circuits by reducing the number of terms, literals, and gates required to implement a given logical function.
 
-</details>
 
-<details>
-<summary> Sequential Logic Optimisations </summary>	
+
+
+#### Sequential Logic Optimisations	
 
 + Sequential logic optimizations involve improving the efficiency, performance, and resource utilization of digital circuits that include memory elements like flip-flops and latches.
 + Optimizing sequential logic is crucial in ensuring that digital circuits meet timing requirements, consume minimal power, and occupy the least possible area while maintaining correct functionality.
@@ -791,12 +790,12 @@ It gives a report of what cells are used and the number of input and output sign
   - **Sequential logic cloning**, also known as retiming-based cloning or register cloning, is a technique used in digital design to improve the performance of a circuit by duplicating or cloning existing registers (flip-flops) and introducing additional pipeline stages. This technique aims to balance the critical paths within a circuit and reduce its overall clock period, leading to improved timing performance and better overall efficiency.
   - **Retiming** is an optimization technique used in digital design to improve the performance of a circuit by repositioning registers (flip-flops) along its paths to balance the timing and reduce the critical path delay. The primary goal of retiming is to achieve a shorter clock period without changing the functionality of the circuit.
  
-</details>
+
 
 ## Combinational Logic Optimisations
 
-<details>
-<summary> opt_check </summary>	
+
+ #### opt_check 
 	
 + `gvim opt_check.v`
 
@@ -813,10 +812,9 @@ It gives a report of what cells are used and the number of input and output sign
 
   <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/8861528b-55be-45e4-952e-c0600c811685">
 
-</details>
 
-<details>
-<summary> opt_check2 </summary>	
+
+ #### opt_check2
 	
 + `gvim opt_check2.v`
 
@@ -833,10 +831,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/d0b4fb18-71ff-4aa6-92b9-49eac8dd889b">
 
-</details>
-
-<details>
-<summary> opt_check3 </summary>	
+ #### opt_check3 
 	
 + `gvim opt_check3.v`
 
@@ -853,10 +848,9 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/2c885b4d-c274-4bae-abd0-15853f864f62">
 
-</details>
 
-<details>
-<summary> opt_check4 </summary>
+
+#### opt_check4 
 	
 + `gvim opt_check4.v`
 
@@ -873,10 +867,9 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/498cf442-ec8e-468e-a310-d1f93b93ce1a">
 
-</details>
 
-<details>
-<summary> multiple_module_opt </summary>
+
+#### multiple_module_opt 
 	
 + `gvim multiple_module_opt.v`
 
@@ -893,12 +886,11 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="400" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/1344d22d-51f5-439e-bc34-96b2a742474e">
 
-</details>
+
 
 ## Sequential Logic Optimisations
 
-<details>
-<summary> dff_const1 </summary>	
+#### dff_const1 
 
 + `gvim dff_const1.v`
 
@@ -927,10 +919,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="925" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/fa1d8b2f-431e-4836-8a75-8c2bd3ce326e">
 
-</details>
-
-<details>
-<summary> dff_const2 </summary>	
+#### dff_const2 	
 
 + `gvim dff_const2.v`
 
@@ -959,10 +948,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="305" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/8e3503dd-d315-426f-9a3e-bd487014600a">
 
-</details>
-
-<details>
-<summary> dff_const3 </summary>
+#### dff_const3 
 
 + `gvim dff_const3.v`
 
@@ -991,10 +977,9 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="922" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/bdea6f33-d357-47f4-a9fd-cc655dcce869">
 
-</details>
 
-<details>
-<summary> dff_const4 </summary>	
+
+#### dff_const4 	
 
 + `gvim dff_const4.v`
 
@@ -1023,10 +1008,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="306" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/4d4d33fc-11ec-4cb5-867d-2f34d892255a">
 
-</details>
-
-<details>
-<summary> dff_const5 </summary>	
+#### dff_const5 	
 
 + `gvim dff_const5.v`
 
@@ -1055,11 +1037,11 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="923" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/8d95c49d-9fd9-4d76-bba1-b893c6f163fc">
 
-</details>
+
 
 ## Sequential Optimisations for Unused Outputs
-<details>
-<summary> counter_opt </summary>
+
+#### counter_opt 
 
  + `gvim counter_opt.v`
 
@@ -1076,10 +1058,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="923" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/b65d5ac8-3961-4a7b-9e8a-18bc0229f104">
 
-</details>
-
-<details>
-<summary> counter_opt2 </summary>	
+#### counter_opt2 
 
 + `gvim counter_opt2.v`
 
@@ -1096,15 +1075,14 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="923" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/78af2250-6ee8-4d94-b91b-138cb2877b1e">
 
-</details>
+
 </details>
 <details>
 <summary> DAY 6:  GLS Synthesis-Simulation Mismatch and Blocking Non-blocking Statements </summary>
 <br>
 
 
-<details>
-<summary> GLS Concepts And Flow Using Iverilog </summary>	
+#### GLS Concepts And Flow Using Iverilog 
 
  + **Gate Level Simualtion**
    - Gate-level simulation is a technique used in digital design and verification to validate the functionality of a digital circuit at the gate-level implementation.
@@ -1165,11 +1143,11 @@ It gives a report of what cells are used and the number of input and output sign
     - Sequential Logic Misrepresentation: Using blocking assignments to model sequential logic might not capture the intended behavior accurately. Sequential elements like registers and flip-flops are better represented using non-blocking assignments.
     - Synthesis Implications: The behavior of blocking assignments might not translate well during synthesis, leading to potential mismatches between simulation and synthesis results.
 
-</details>
+
 
 ## Labs on GLS and Synthesis-Simulation Mismatch
-<details>
-<summary> ternary_operator_mux </summary>	
+
+#### ternary_operator_mux 
 
 + `gvim teranry_operator_mux.v`
 
@@ -1207,10 +1185,7 @@ It gives a report of what cells are used and the number of input and output sign
 
 <img width="498" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/5c4652e6-8364-4e81-9cd3-f1795f5d321a">
 
-</details>
-
-<details>
-<summary> bad_mux </summary>	
+#### bad_mux 
 
  + `gvim bad_mux.v`
 
@@ -1248,12 +1223,11 @@ It gives a report of what cells are used and the number of input and output sign
   
 <img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9d51d787-22d3-4495-95cc-c87c0ef71d17">
 
-</details>
+
 
 ## Labs on Synth-Sim Mismatch for Blocking Statement
 
-<details>
-<summary> blocking_caveat </summary>	
+#### blocking_caveat 
 
 + `gvim blocking_caveat.v`
 
@@ -1290,6 +1264,6 @@ It gives a report of what cells are used and the number of input and output sign
 <img width="926" alt="image" src="https://github.com/vaishbv/pes_asic_class/assets/79531808/a9af34d0-7634-4d86-bbbf-b4e910996db8">
 
 <img width="503" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c78704db-de4c-4958-880f-0747f78090d9">
-</details>
+
 </details>
 
