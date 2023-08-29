@@ -366,7 +366,7 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
   - It is an open-source framework for Verilog RTL synthesis and formal verification.
   - Yosys provides a collection of tools and algorithms that enable designers to transform high-level RTL (Register Transfer Level) descriptions of digital circuits into optimized gate-level representations suitable for physical implementation on hardware.
 
- <img width="561" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/5f879aaa-ec65-4362-9f91-f39999069732">
+![PIC 3](https://github.com/vaishbv/pes_asic_class/assets/79531808/669194a7-9934-4b2c-ab4b-41d8ae286558)
 
    - Design and .lib files are fed to the synthesizer to get a netlist file.
    - **Netlist** is the representation of the design in the form of standard cells in the .lib
