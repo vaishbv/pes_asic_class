@@ -302,8 +302,8 @@ Here we can observe that at 5th line, inorder to comute the result ,its going to
 + `git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git`
 + Creates a folder called `sky130RTLDesignAndSynthesisWorkshop` in the `vsd` directory.
 
- <img width="377" alt="image" src="![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/560c6f5e-7269-4635-9bb6-c02d1f389a97)
-">
+ ![PIC 1](https://github.com/vaishbv/pes_asic_class/assets/79531808/2ece7152-3a0e-41b9-ac01-764b52831678)
+
 
   - my_lib : contains all the library files
 
